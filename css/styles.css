@@ -258,4 +258,29 @@ line-height: 0;
     .menu-btn-nav {
         display: none;
     }
+
+    .page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 496px;
+}
+.page-nav-ul {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 40px;
+}
+    .nav-links {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+        
+padding: 24px 0;
+display: block;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
