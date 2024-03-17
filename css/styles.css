@@ -462,10 +462,6 @@ flex-direction: column;
 gap: 72px;
 }
 
-.portfolio-list-item {
-    width: calc((100% - 24px) / 1);
-}
-
 .portfolio-h {
 font-weight: 700;
 font-size: 36px;
@@ -493,16 +489,21 @@ font-weight: 500;
     .portfolio-list {
     column-gap: 24px;
     row-gap: 72px;
+    flex-direction: row;
     }
 
     .portfolio-list-item {
         width: calc((100% - 24px) / 2);
     }
+
+    .portfolio-h {
+    text-align: start;
+}
 }
 /* -_-_-_-_-_-_-_- Section 2 Desktop style -_-_-_-_-_-_-_- */
 
 @media only screen and (min-width: 1158px) {
-    
+
 .div-container-svg {
 display: flex;
 }
