@@ -469,7 +469,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding-bottom: 8px;
+margin-bottom: 8px;
 }
 
 .portfolio-sub {
@@ -477,6 +477,9 @@ color: #434455;
 font-weight: 500;
 }
 
+.portfolio-section {
+    margin-bottom: 96px;
+}
 
 /* -_-_-_-_-_-_-_- Section 2 Mobile style -_-_-_-_-_-_-_- */
 
@@ -510,5 +513,32 @@ display: flex;
 
 .portfolio-sub {
 font-weight: 400;
+}
+
+.portfolio-list {
+    flex-direction: row;
+    gap: 24px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 72px) / 4)
+}
+
+.div-container-svg {
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background: #f4f4fd;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
+}
+
+.portfolio-h {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
 }
 }
