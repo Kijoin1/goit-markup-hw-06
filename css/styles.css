@@ -313,7 +313,7 @@ flex-direction: row;
 gap: 40px;
 }
 
-    .nav-links {
+.nav-links {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -338,6 +338,10 @@ color: #404bbf;
 @media only screen and (min-width: 1158px) {
     .page-nav {
         max-width: 467px;
+    }
+    .contacts-list {
+        display: flex;
+        gap: 40px;
     }
 }
 
@@ -400,7 +404,7 @@ background: #404bbf;
     .section-effective-solutions {
         min-width: 320px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/people-office-background/people-office-background-mobile.png);
+        url(../images/people-office-background/people-office-background-mobile.jpg);
     }
 
 }
@@ -408,7 +412,7 @@ background: #404bbf;
 @media (min-resolution: 192dpi) {
     .section-effective-solutions {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/people-office-background/people-office-background-mobile@2x.png);
+        url(../images/people-office-background/people-office-background-mobile@2x.jpg);
     }
 }
 /* -_-_-_-_-_-_-_- Section 1 Tablet style -_-_-_-_-_-_-_- */
@@ -416,7 +420,7 @@ background: #404bbf;
     .section-effective-solutions {
     min-width: 768px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-    url(../images/people-office-background/people-office-background-mobile.png);
+    url(../images/people-office-background/people-office-background-tablet.jpg);
     }  
 
     .page-h {
@@ -428,7 +432,7 @@ background: #404bbf;
 @media (min-resolution: 192dpi) {
     .section-effective-solutions {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/people-office-background/people-office-background-tablet@2x.png);
+        url(../images/people-office-background/people-office-background-tablet@2x.jpg);
     }  
 }
 /* -_-_-_-_-_-_-_- Section 1 Desktop style -_-_-_-_-_-_-_- */
@@ -436,7 +440,7 @@ background: #404bbf;
     .section-effective-solutions {
         min-width: 1440px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/people-office-background/people-office-background-mobile.png);
+        url(../images/people-office-background/people-office-background.jpg);
     }
 
 }
@@ -444,7 +448,7 @@ background: #404bbf;
 @media (min-resolution: 192dpi) {
     .section-effective-solutions {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
-        url(../images/people-office-background/people-office-background@2x.png);
+        url(../images/people-office-background/people-office-background@2x.jpg);
     }  
 }
 /* -_-_-_-_-_-_-_- Section 2 All style -_-_-_-_-_-_-_- */
