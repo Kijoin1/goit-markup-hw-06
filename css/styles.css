@@ -734,7 +734,6 @@ padding: 40px 32px;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-width: 288px;
 }
 
 .our-portfolio-title{
@@ -766,5 +765,9 @@ margin-bottom: 8px;
         width: calc((100% - 24px) / 2);
     }
 }
-
 /* -_-_-_-_-_-_-_- Section 4 Desktop style -_-_-_-_-_-_-_- */
+@media only screen and (min-width: 1158px) {
+    .our-portfolio-item{
+        width: calc((100% - 48px) / 3);
+    }
+}
