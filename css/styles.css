@@ -66,7 +66,7 @@ padding-left: 15px;
 padding-right: 15px;}
 }
 
-/* -_-_-_-_-_-_-_- Page Header style -_-_-_-_-_-_-_- */
+/* -_-_-_-_-_-_-_- Page Header All Style -_-_-_-_-_-_-_- */
 
 .header-nav {
 border-bottom: 1px solid #e7e9fc;
@@ -324,16 +324,190 @@ padding: 24px 0;
 display: block;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
 
 .nav-links:focus,
 .nav-links:hover {
 color: #404bbf;
 }
+
+}
+
+
 /* -_-_-_-_-_-_-_- Desktop Header style -_-_-_-_-_-_-_- */
 
 @media only screen and (min-width: 1158px) {
     .page-nav {
         max-width: 467px;
     }
+}
+
+/* -_-_-_-_-_-_-_- Section 1 All style -_-_-_-_-_-_-_- */
+.section-effective-solutions {
+padding-bottom: 188px;
+padding-top: 188px;
+background: #2e2f42;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-background.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 96px;
+}
+
+.page-h {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+
+margin-right: auto;
+margin-left: auto;
+max-width: 216px;
+margin-bottom: 72px;
+}
+
+.button-h {
+color: #fff;
+background: #4d5ae5;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+
+border-radius: 4px;
+padding: 16px 32px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+display: block;
+border: none;
+margin: auto;
+min-width: 169px;
+
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-h:hover,
+.button-h:focus{
+background: #404bbf;
+}
+
+/* -_-_-_-_-_-_-_- Error! not jpg -_-_-_-_-_-_-_- */
+
+/* -_-_-_-_-_-_-_- Section 1 Mobile style -_-_-_-_-_-_-_- */
+@media only screen and (max-width: 768px) {
+    .section-effective-solutions {
+        min-width: 320px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office-background/people-office-background-mobile.png);
+    }
+
+}
+
+@media (min-resolution: 192dpi) {
+    .section-effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office-background/people-office-background-mobile@2x.png);
+    }
+}
+/* -_-_-_-_-_-_-_- Section 1 Tablet style -_-_-_-_-_-_-_- */
+@media only screen and (min-width: 768px) {
+    .section-effective-solutions {
+    min-width: 768px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url(../images/people-office-background/people-office-background-mobile.png);
+    }  
+
+    .page-h {
+    font-size: 56px;
+    max-width: 496px;
+    }
+}
+
+@media (min-resolution: 192dpi) {
+    .section-effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office-background/people-office-background-tablet@2x.png);
+    }  
+}
+/* -_-_-_-_-_-_-_- Section 1 Desktop style -_-_-_-_-_-_-_- */
+@media only screen and (min-width: 1158px){
+    .section-effective-solutions {
+        min-width: 1440px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office-background/people-office-background-mobile.png);
+    }
+
+}
+
+@media (min-resolution: 192dpi) {
+    .section-effective-solutions {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office-background/people-office-background@2x.png);
+    }  
+}
+/* -_-_-_-_-_-_-_- Section 2 All style -_-_-_-_-_-_-_- */
+
+.div-container-svg {
+    display: none;
+    }
+
+.portfolio-list {
+flex-wrap: wrap;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 72px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 24px) / 1);
+}
+
+.portfolio-h {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+padding-bottom: 8px;
+}
+
+.portfolio-sub {
+color: #434455;
+font-weight: 500;
+}
+
+
+/* -_-_-_-_-_-_-_- Section 2 Mobile style -_-_-_-_-_-_-_- */
+
+@media only screen and (max-width: 768px) {}
+
+/* -_-_-_-_-_-_-_- Section 2 Tablet style -_-_-_-_-_-_-_- */
+
+@media only screen and (min-width: 768px) {
+
+    .portfolio-list {
+    column-gap: 24px;
+    row-gap: 72px;
+    }
+
+    .portfolio-list-item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+/* -_-_-_-_-_-_-_- Section 2 Desktop style -_-_-_-_-_-_-_- */
+
+@media only screen and (min-width: 1158px) {
+    
+.div-container-svg {
+display: flex;
+}
+
+.portfolio-sub {
+font-weight: 400;
+}
 }
