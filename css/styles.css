@@ -1,0 +1,249 @@
+/* -_-_-_-_-_-_-_- Elements -_-_-_-_-_-_-_- */
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+address {
+font-style: normal
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+img {
+display: block
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+    
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.container {
+max-width: 288px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media only screen and (min-width: 768px) {
+.container {
+max-width: 736px;
+}
+}
+
+@media only screen and (min-width: 1158px) {
+.container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;}
+}
+
+/* -_-_-_-_-_-_-_- Page Header style -_-_-_-_-_-_-_- */
+
+.page-nav-ul,
+.contacts {
+display: none;
+}
+
+.header-nav {
+padding-top: 16px;
+padding-bottom: 16px;
+border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.logo-page {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0px;
+margin-right: 76px;
+}
+
+.studio-span-header {
+color: #2e2f42;
+}
+
+.menu-btn-nav {
+background-color: transparent;
+border: none;
+padding: 0;
+line-height: 0;
+}
+
+.nav-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* -_-_-_-_-_-_-_- Mobaile Menu style -_-_-_-_-_-_-_- */
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 999999;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 250ms linear, visibility 250ms linear;
+}
+
+.mobile-menu-close-btn {
+    fill: #2e2f42;
+    border-radius: 100%;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    padding: 0;
+    
+    width: 24px;
+    height: 24px;
+    
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-container {
+    position: relative;
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.page-nav-ul-mobile {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 40px;
+
+padding-top: 72px;
+}
+
+.nav-links-mobile {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.current {
+position: relative;
+color: #404bbf
+}
+
+.contacts-links-mobile {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-links-mobile:hover,
+.contacts-links-mobile:focus {
+color: #404bbf
+}
+
+.contacts-list-mobile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contacts {
+    margin-top: 168px;
+}
+
+.contacts-links-mobile-tel {
+    color: #4d5ae5;
+}
+
+.contact-our-team-mobile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+
+    margin-top: 48px;
+}
+
+.contact-our-team-list-mobile {
+    display: list-item;
+}
+
+.contact-our-team-link-mobile {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+fill: #fff;
+background-color: #4d5ae5;
+width: 40px;
+height: 40px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-our-team-link-mobile:hover,
+.contact-our-team-link-mobile:focus {
+    background-color: #404bbf;
+}
+
+.icon-svg-our-team {
+    fill: #f4f4fd;
+}
+@media only screen and (min-width: 768px) {
+    
+}
