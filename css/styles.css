@@ -263,10 +263,6 @@ line-height: 0;
         display: none;
     }
 
-    .header-nav {
-        height: 72px;
-    }
-
     .page-nav {
     display: flex;
     align-items: center;
